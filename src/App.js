@@ -46,7 +46,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Global CO2 Emission</h1>
+        <h1>Global CO2 Emission is growing rapidly</h1>
         <MyBarChart
           chartName="Bar1"
           Co2Emission={this.state.Co2Emission[this.state.indexYear1]}
